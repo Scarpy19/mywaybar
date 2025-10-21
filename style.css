@@ -28,11 +28,8 @@
     opacity: 0.5;
 }
 
-#tray,
 #cpu,
 #battery,
-#network,
-#bluetooth,
 #pulseaudio,
 #custom-omarchy,
 #custom-screenrecording-indicator,
@@ -41,8 +38,20 @@
     margin: 0 7.5px;
 }
 
+#tray {
+    margin-right: 15px;
+}
+
+#bluetooth {
+    margin-right: 15px;
+}
+
+#network {
+    margin-right: 15px;
+}
+
 #custom-expand-icon {
-    margin-right: 7px;
+    margin-right: 10px;
 }
 
 tooltip {
